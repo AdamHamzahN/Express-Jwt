@@ -1,6 +1,7 @@
 // controllers/categoryController.js
 const pool = require('../config/db');
 
+
 module.exports = {
   // GET /api/categories
   getAll: async (req, res, next) => {
